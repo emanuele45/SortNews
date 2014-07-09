@@ -1,0 +1,6 @@
+#news_lists tbody .handle::before { 
+	content: "⇳";
+	font-family: "Segoe UI Symbol", "DejaVu Sans", "GNU Unifont";
+	font-size: 1.29em;
+	top: 1.5em;
+}

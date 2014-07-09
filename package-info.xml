@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.elkarte.net/site/package-info">
+<package-info xmlns="http://www.elkarte.net/site/package-info" xmlns:elk="http://www.elkarte.net/">
+	<license><![CDATA[
+/**
+ * Sort News
+ *
+ * @author  emanuele
+ * @license BSD http://opensource.org/licenses/BSD-3-Clause
+ *
+ * @version 0.0.1
+ */
+	]]></license>
+	<id>emanuele:sort_news</id>
+	<name>Sort News</name>
+	<version>0.0.1</version>
+	<type>modification</type>
+	<install for="1.0 RC 1 - 1.0.99">
+		<require-file name="SortNews.class.php" destination="SUBSDIR" />
+		<require-file name="SortNews.js" destination="THEMEDIR/scripts" />
+		<database>install.php</database>
+	</install>
+	<uninstall for="1.0 RC 1 - 1.0.99">
+		<remove-file name="SUBSDIR/SortNews.class.php" />
+		<remove-file name="THEMEDIR/scripts/SortNews.js" />
+		<code>install.php</code>
+	</uninstall>
+</package-info>
