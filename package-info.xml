@@ -18,11 +18,13 @@
 	<install for="1.0 RC 1 - 1.0.99">
 		<require-file name="SortNews.class.php" destination="SUBSDIR" />
 		<require-file name="SortNews.js" destination="THEMEDIR/scripts" />
+		<require-file name="SortNews.css" destination="THEMEDIR/css" />
 		<database>install.php</database>
 	</install>
 	<uninstall for="1.0 RC 1 - 1.0.99">
 		<remove-file name="SUBSDIR/SortNews.class.php" />
 		<remove-file name="THEMEDIR/scripts/SortNews.js" />
+		<remove-file name="THEMEDIR/css/SortNews.css" />
 		<code>install.php</code>
 	</uninstall>
 </package-info>
