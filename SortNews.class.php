@@ -32,7 +32,7 @@ class SortNews
 	public static function instance()
 	{
 		if (self::$_instance === null)
-			self::$_instance = new MultiBadges();
+			self::$_instance = new SortNews();
 
 		return self::$_instance;
 	}
