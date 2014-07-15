@@ -8,3 +8,8 @@ This Modifications Source Code is subject to the terms of [The BSD License](http
 
 ###Credits
 Thanks to [Brian Grinstead](http://www.foliotek.com/devblog/make-table-rows-sortable-using-jquery-ui-sortable/) for the hint on how to not screw up the row while dragging!
+
+###Changelog
+  * 0.0.1 - Initial release
+  * 0.0.2 - Fixed wrong classi n singletone
+  * 0.0.3 - Fixed install
