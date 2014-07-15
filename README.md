@@ -11,5 +11,5 @@ Thanks to [Brian Grinstead](http://www.foliotek.com/devblog/make-table-rows-sort
 
 ###Changelog
   * 0.0.1 - Initial release
-  * 0.0.2 - Fixed wrong classi n singletone
+  * 0.0.2 - Fixed wrong class name in singleton
   * 0.0.3 - Fixed install
